@@ -48,7 +48,7 @@ header {
 }
 
 .button:hover {
-    background: white;
+    background: #99b1e2;
 }
 
 section {
@@ -100,9 +100,12 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
-    background: #4C76C3;
+button:disabled,
+button[disabled]{
+    background-color: #cccccc;
+    color: #666666;
 }
+
 
 footer {
     background: #4C76C3;
